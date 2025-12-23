@@ -190,25 +190,37 @@ div .explore {
   max-width: 200px;
   height: auto;
 }
-.d {
+.gallery-3x4 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  padding: 10px;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom tetap */
+  gap: 15px;
+  padding: 15px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.item img {
-  width: 100%;
-  height: auto;
+.d-3x4 .item img {
+  width: 100%; /* mengikuti container */
+  height: auto; /* tetap proporsional */
   display: block;
+  border-radius: 6px;
 }
 
-.item p {
+.d-3x4 .item p {
   margin-top: 4px;
   font-size: 12px;
-  color: white;
   text-align: center;
+  color: white;
 }
+
+/* HP 2 kolom */
+@media (max-width: 768px) {
+  .d-3x4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 
 
 
