@@ -4,18 +4,15 @@
     box-sizing: border-box;
 }
 
-* body {
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: rgb(255, 255, 255);
-    font-family: "Poppins", sans-serif;
-    background: black;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    width: 100%;
-}
+body {
+                font-family: 'Barlow Condensed', sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                background-color: #858d94;
+                margin: 0;
+    }
+
 .gradasi {
     position: absolute;
     bottom: -10px;
@@ -487,4 +484,5 @@ div .explore {
     width: 121%;
     display: block;
 }
+
 
