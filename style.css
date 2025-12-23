@@ -164,39 +164,29 @@ div .explore {
     font-style: oblique;
 }
 .b1 {
-    position: absolute;
-    top: 210%;
-    left: 12%;
-    width: 121%;
-    display: block;
+   width: 25%;
+  max-width: 200px;
+  height: auto;
 }
 .b2 {
-    position: absolute;
-    top: 210%;
-    left: 32%;
-    width: 121%;
-    display: block;
+    width: 25%;
+  max-width: 200px;
+  height: auto;
 }
 .b3 {
-    position: absolute;
-    top: 210%;
-    left: 52%;
-    width: 121%;
-    display: block;
+    width: 25%;
+  max-width: 200px;
+  height: auto;
 }
 .b4 {
-    position: absolute;
-    top: 210%;
-    left: 72%;
-    width: 121%;
-    display: block;
+    width: 25%;
+  max-width: 200px;
+  height: auto;
 }
 .b5 {
-    position: absolute;
-    top: 250%;
-    left: 12%;
-    width: 121%;
-    display: block;
+    width: 25%;
+  max-width: 200px;
+  height: auto;
 }
 .b6 {
     position: absolute;
@@ -486,3 +476,4 @@ div .explore {
     width: 121%;
     display: block;
 }
+
