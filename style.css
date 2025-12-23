@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 
-.box {
-  width: 100%;
-  aspect-ratio: 16 / 9; /* tinggi otomatis mengikuti lebar */
-  background-color: lightblue;
+/* Default untuk desktop/laptop */
+.container {
+  width: 60%;
+  margin: auto;
 }
+
+/* Untuk tablet */
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Untuk handphone */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 5%;
+  }
 
 * body {
     height: 60vh;
@@ -492,4 +506,5 @@ div .explore {
     width: 121%;
     display: block;
 }
+
 
