@@ -199,14 +199,14 @@ div .explore {
   margin: auto;
 }
 
-.d-3x4 .item img {
+.gallery-3x4 .item img {
   width: 100%; /* mengikuti container */
   height: auto; /* tetap proporsional */
   display: block;
   border-radius: 6px;
 }
 
-.d-3x4 .item p {
+.gallery-3x4 .item p {
   margin-top: 4px;
   font-size: 12px;
   text-align: center;
@@ -215,10 +215,11 @@ div .explore {
 
 /* HP 2 kolom */
 @media (max-width: 768px) {
-  .d-3x4 {
+  .gallery-3x4 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
