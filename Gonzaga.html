@@ -1,258 +1,185 @@
-<!DOCTYPE html>
-<html>
-<head>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gonzaga Project</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- google font-->
-</head>
-<body> 
+/* ============ RESET ============ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<div class="WELCOME">
-    <img src="GONZAGANIANS_2023-2025-removebg-preview.png" width="200" height="200">
-    <h1>WELCOME TO</h1>
-    <h2>GONZAGA</h2>
-<a href="about.html"><button class="explore">Start here to see us</button></a>
-    </div>
-    <div class="contener">
-        <img src="mk.JPG" alt="mk"  height="650vh">
-        <div class="gradasi"></div>
-        <h1>Gonzaga XXIII-XXV</h1>
-        <div class="imgg2">
-            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" width="100" height="80">
-        </div>
-        <div class="imgg3">
-            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" width="100" height="80">
-        </div>
-        <div class="imgg4">
-            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" width="100" height="80">
-        </div>
-        <br>
-        <p>"Harta yang paling indah bukanlah emas semata, bukan permata, ataupun benda-benda seni lainnya. Harta itu tidak dapat digenggam dengan tanganmu tetapi ada di dalam hatimu. Segala sesuatu yang ada di bumi akan mengilang seperti musin yang datang silih berganti, tetapi harta persahabatan yang sesungguhnya tidak akan pernah padam cahayanya"</p>
-        <br>
-        <p>"Harta yang paling indah bukanlah emas semata, bukan permata, ataupun benda-benda seni lainnya. Harta itu tidak dapat digenggam dengan tanganmu tetapi ada di dalam hatimu. Segala sesuatu yang ada di bumi akan mengilang seperti musin yang datang silih berganti, tetapi harta persahabatan yang sesungguhnya tidak akan pernah padam cahayanya"
-    </div>
-    <div class="holi">
-        <h4><p>Segundo Gerção de Gonzaga no Loiola<br>"É MELHORE SER FILHO DE DEUS DO QUE O REI DO MUNDO"</b></h4>
-    </div>
-<div class="b1">
-    <img src="calon.JPG" width="150" height="150">
-    <div class="ag">AGUIAR</div>
-</div>
+body {
+    background: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
 
-<div class="b2">
-    <img src="2 Ana Jessica.JPG" width="150" height="150">
-    <div class="ag">ANA JESSICA</div>
-</div>
+/* ============ WELCOME SECTION ============ */
+.WELCOME {
+    text-align: center;
+    padding: 50px 20px;
+}
 
-<div class="b3">
-    <img src="3 Bahkita.JPG" width="150" height="150">
-    <div class="ag">BAHKITA</div>
-</div>
+.WELCOME img {
+    width: 200px;
+    height: auto;
+}
 
-<div class="b4">
-    <img src="4 Benicia.JPG" width="150" height="150">
-    <div class="ag">BENICIA</div>
-</div>
+.WELCOME h1 {
+    color: rgb(40, 117, 44);
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
 
-<div class="b5">
-    <img src="5 Canizia.JPG" width="150" height="150">
-    <div class="ag">CANIZIA</div>
-</div>
+.WELCOME h2 {
+    color: rgb(21, 90, 24);
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin: 10px 0 20px 0;
+}
 
+.explore {
+    padding: 12px 25px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border: 2px solid rgb(21, 90, 24);
+    cursor: pointer;
+    font-weight: bold;
+}
 
-<div class="b6">
-    <img src="sasa.JPG" width="150" height="150">
-    <div class="ag">CASSANDRA</div>
-</div>
+/* ============ CONTENER SECTION ============ */
+.contener {
+    text-align: center;
+    padding: 20px;
+}
 
-<div class="b7">
-    <img src="7 Cimplicio.JPG" width="150" height="150">
-    <div class="ag">CIMPLICIO</div>
-</div>
+.contener img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+}
 
+.contener h1 {
+    margin: 20px 0;
+}
 
-<div class="b8">
-    <img src="delfi.JPG" width="150" height="150">
-    <div class="ag">DELFINA</div>
-</div>
+.contener p {
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
 
-<div class="b9">
-    <img src="38 Rosalina.JPG" width="150" height="150">
-    <div class="ag">ROSALINA</div>
-</div>
+/* ============ LOGO KECIL ============ */
+.imgg2,
+.imgg3,
+.imgg4 {
+    display: inline-block;
+    margin: 10px;
+}
 
-<div class="b10">
-    <img src="deo.JPG" width="150" height="150">
-    <div class="ag">DEONEIA</div>
-</div>
+.imgg2 img,
+.imgg3 img,
+.imgg4 img {
+    width: 80px;
+    height: auto;
+}
 
-<div class="b11">
-    <img src="amanu.JPG" width="150" height="150">
-    <div class="ag">EMMANUEL</div>
-</div>
+/* ============ HOLI QUOTE ============ */
+.holi p {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-shadow: 0 0 10px rgb(0, 255, 85);
+    padding: 40px 20px;
+}
 
-<div class="b12">
-    <img src="11 Esperanca.JPG" width="150" height="150">
-    <div class="ag">ESPERANÇA</div>
-</div>
+/* ============ FOTO SISWA ============ */
+[class^="b"] {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+}
 
-<div class="b13">
-    <img src="vita.JPG" width="150" height="150">
-    <div class="ag">EVITA</div>
-</div>
+[class^="b"] img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
 
-<div class="b14">
-    <img src="ferdi.JPG" width="150" height="150">
-    <div class="ag">FERDINAND</div>
-</div>
+.ag {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
-<div class="b15">
-    <img src="febry.JPG" width="150" height="150">
-    <div class="ag">FEVRIANTI</div>
-</div>
+/* ============ OKE SECTION ============ */
+.oke,
+.oke1,
+.oke2,
+.oke3 {
+    text-align: center;
+    margin: 30px 10px;
+}
 
-<div class="b16">
-    <img src="deus.JPG" width="150" height="150">
-    <div class="ag">FRANCISCA</div>
-</div>
+.lol {
+    font-size: 20px;
+    font-style: italic;
+}
 
-<div class="b17">
-    <img src="16 Giavania.JPG" width="150" height="150">
-    <div class="ag">GIAVANIA</div>
-</div>
+/* ============ RESPONSIVE ============ */
 
-<div class="b18">
-    <img src="guilher.JPG" width="150" height="150">
-    <div class="ag">GUILHERMINA</div>
-</div>
+/* Tablet */
+@media (max-width: 1024px) {
+    [class^="b"] {
+        width: 30%;
+    }
 
-<div class="b19">
-    <img src="18 Ignatius.JPG" width="150" height="150">
-    <div class="ag">IGNATIUS</div>
-</div>
+    [class^="b"] img {
+        max-width: 120px;
+    }
+}
 
-<div class="b20">
-    <img src="jabo.JPG" width="150" height="150">
-    <div class="ag">JANIA</div>
-</div>
+/* Mobile */
+@media (max-width: 600px) {
 
-<div class="b21">
-    <img src="adasi.JPG" width="150" height="150">
-    <div class="ag">JENILSON</div>
-</div>
+    .WELCOME {
+        padding: 30px 10px;
+    }
 
-<div class="b22">
-    <img src="25 Marco.JPG" width="150" height="150">
-    <div class="ag">MARCO</div>
-</div>
+    .WELCOME img {
+        width: 120px;
+    }
 
-<div class="b23">
-    <img src="novia.JPG" width="150" height="150">
-    <div class="ag">JENOVIA</div>
-</div>
+    .WELCOME h2 {
+        font-size: 24px;
+    }
 
-<div class="b24">
-    <img src="issa.JPG" width="150" height="150">
-    <div class="ag">LARISSA</div>
-</div>
+    .contener h1 {
+        font-size: 20px;
+    }
 
-<div class="b25">
-    <img src="pua.JPG" width="150" height="150">
-    <div class="ag">LUROCHIA</div>
-</div>
+    .contener p {
+        font-size: 14px;
+    }
 
-<div class="b26">
-    <img src="ateri.JPG" width="150" height="150">
-    <div class="ag">MICHLE</div>
-</div>
+    [class^="b"] {
+        width: 45%;
+        margin: 2%;
+    }
 
-<div class="b27">
-    <img src="28 Melicia.JPG" width="150" height="150">
-    <div class="ag">MELICIA</div>
-</div>
+    [class^="b"] img {
+        max-width: 100px;
+    }
 
-<div class="b28">
-    <img src="del.JPG" width="150" height="150">
-    <div class="ag">MARIA DELLAFONSA</div>
-</div>
+    .ag {
+        font-size: 12px;
+    }
 
-<div class="b29">
-    <img src="26 Maria Baptista.JPG" width="150" height="150">
-    <div class="ag">MARIA BABTISTA</div>
-</div>
-
-<div class="b30">
-    <img src="32 Nilda.JPG" width="150" height="150">
-    <div class="ag">NILDA</div>
-</div>
-
-<div class="b31">
-    <img src="37 Rivanio.JPG" width="150" height="150">
-    <div class="ag">RIVANIO</div>
-</div>
-
-<div class="b32">
-    <img src="ifi.JPG" width="150" height="150">
-    <div class="ag">OSAVALDO</div>
-</div>
-
-<div class="b33">
-    <img src="milu.JPG" width="150" height="150">
-    <div class="ag">MILUGREXCYA</div>
-</div>
-
-<div class="b34">
-    <img src="nata.JPG" width="150" height="150">
-    <div class="ag">NATALVIRA</div>
-</div>
-
-<div class="b35">
-    <img src="rigan.JPG" width="150" height="150">
-    <div class="ag">RIGANHO</div>
-</div>
-
-<div class="b36">
-    <img src="40 Vidalia.JPG" width="150" height="150">
-    <div class="ag">VIDALIA</div>
-</div>
-
-<div class="b37">
-    <img src="39 Safira.JPG" width="150" height="150">
-    <div class="ag">SAFIRA</div>
-</div>
-
-<div class="b38">
-    <img src="35 Richana.JPG" width="150" height="150">
-    <div class="ag">RICHANA</div>
-</div>
-
-<div class="b39">
-    <img src="ticia.JPG" width="150" height="150">
-    <div class="ag">PATRICIA</div>
-
-</div>
-<div class="oke">
-    <div class="lol">SENIOR'25 SING OFF, GOOD BYE. SEE YOU WHEN I SEE YOU</div>
-
-</div>
-<div class="oke1">
-    <img src="Logo CSIL.png" width="150" height="150">
-    <div class="ag">SENIOR'25</div>
-
-</div>
-<div class="oke2">
-    <img src="Logo CSIL.png" width="150" height="150">
-    <div class="ag">SENIOR'25</div>
-
-</div>
-<div class="oke3">
-    <img src="Logo CSIL.png" width="150" height="150">
-    <div class="ag">SENIOR'25</div>
-
-</div>
-    <audio autoplay src="Harry_Potter_Ambient_Music__Hogwarts__Relaxing,_Studying,_Sleeping(128k).m4a"></audio>
-</body>
-
-</html>
-
+    .lol {
+        font-size: 16px;
+    }
+}
