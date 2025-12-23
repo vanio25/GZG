@@ -1,68 +1,200 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gonzaga Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* style.css */
 
-    <!-- Bagian Welcome -->
-    <section class="welcome">
-        <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="welcome-logo">
-        <div class="welcome-text">
-            <h1>WELCOME TO</h1>
-            <h2>GONZAGA</h2>
-            <a href="about.html"><button class="explore">Start here to see us</button></a>
-        </div>
-    </section>
+/* Reset dan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-    <!-- Bagian Contener -->
-    <section class="contener">
-        <img src="mk.JPG" alt="mk" class="contener-img">
-        <div class="gradasi"></div>
-        <h1>Gonzaga XXIII-XXV</h1>
-        <div class="imgg">
-            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="small-logo">
-            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="small-logo">
-            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="small-logo">
-        </div>
-        <p>"Harta yang paling indah bukanlah emas semata, bukan permata, ataupun benda-benda seni lainnya. Harta itu tidak dapat digenggam dengan tanganmu tetapi ada di dalam hatimu. Segala sesuatu yang ada di bumi akan mengilang seperti musim yang datang silih berganti, tetapi harta persahabatan yang sesungguhnya tidak akan pernah padam cahayanya."</p>
-    </section>
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.5;
+}
 
-    <!-- Bagian Quote -->
-    <section class="holi">
-        <p>Segundo Gerção de Gonzaga no Loiola<br>"É MELHORE SER FILHO DE DEUS DO QUE O REI DO MUNDO"</p>
-    </section>
+/* ==================== WELCOME SECTION ==================== */
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
+    color: #fff;
+}
 
-    <!-- Bagian Anggota -->
-    <section class="anggota">
-        <div class="anggota-item">
-            <img src="calon.JPG" alt="AGUIAR">
-            <div class="ag">AGUIAR</div>
-        </div>
-        <div class="anggota-item">
-            <img src="2 Ana Jessica.JPG" alt="ANA JESSICA">
-            <div class="ag">ANA JESSICA</div>
-        </div>
-        <div class="anggota-item">
-            <img src="3 Bahkita.JPG" alt="BAHKITA">
-            <div class="ag">BAHKITA</div>
-        </div>
-        <!-- Tambahkan anggota lain dengan format sama -->
-    </section>
+.welcome-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
 
-    <!-- Bagian Footer/Senior -->
-    <section class="oke">
-        <p>SENIOR'25 SING OFF, GOOD BYE. SEE YOU WHEN I SEE YOU</p>
-        <div class="oke-logo">
-            <img src="Logo CSIL.png" alt="Logo Senior" class="logo-senior">
-            <div class="ag">SENIOR'25</div>
-        </div>
-    </section>
+.welcome-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
 
-    <audio autoplay src="Harry_Potter_Ambient_Music__Hogwarts__Relaxing,_Studying,_Sleeping(128k).m4a"></audio>
+.welcome-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 
-</body>
-</html>
+.explore {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.explore:hover {
+    background-color: #e0e0e0;
+}
+
+/* ==================== CONTENER SECTION ==================== */
+.contener {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contener-img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.gradasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    pointer-events: none;
+}
+
+.contener h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.imgg {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.small-logo {
+    width: 80px;
+    height: auto;
+}
+
+/* ==================== HOLI SECTION ==================== */
+.holi {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    font-style: italic;
+}
+
+/* ==================== ANGGOTA SECTION ==================== */
+.anggota {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.anggota-item {
+    text-align: center;
+}
+
+.anggota-item img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.anggota-item img:hover {
+    transform: scale(1.1);
+}
+
+.ag {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ==================== OKE SECTION ==================== */
+.oke {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #2575fc;
+    color: #fff;
+}
+
+.oke-logo {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo-senior {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+    .welcome-logo {
+        width: 120px;
+    }
+    .welcome-text h1 {
+        font-size: 1.5rem;
+    }
+    .welcome-text h2 {
+        font-size: 2rem;
+    }
+    .small-logo {
+        width: 60px;
+    }
+    .anggota-item img {
+        max-width: 100px;
+    }
+    .logo-senior {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-logo {
+        width: 100px;
+    }
+    .welcome-text h1 {
+        font-size: 1.2rem;
+    }
+    .welcome-text h2 {
+        font-size: 1.5rem;
+    }
+    .small-logo {
+        width: 50px;
+    }
+    .anggota-item img {
+        max-width: 80px;
+    }
+    .logo-senior {
+        width: 60px;
+    }
+}
