@@ -148,3 +148,16 @@ body {
     font-size: 20px;
     font-style: italic;
 }
+/* Semua gambar dengan class responsive-img akan menyesuaikan layar */
+.responsive-img {
+    width: 100%;       /* penuh sesuai container */
+    height: auto;      /* jaga rasio gambar */
+    max-width: 150px;  /* maksimal untuk desktop, bisa diubah */
+    border-radius: 8px; /* opsional, biar lebih rapi */
+}
+
+/* Media query untuk layar kecil (HP) */
+@media (max-width: 600px) {
+    .responsive-img {
+        max-width: 100px; /* gambar lebih kecil di HP */
+    }
