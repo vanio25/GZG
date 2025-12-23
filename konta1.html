@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+    <title>Foto dan Informasi Pribadi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'inter', sans-serif;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 850%; 
+            background-image: url(matak\ 6.JPG);
+            overflow-y: hidden;
+        }
+
+        .card-group {
+            display: flex;
+            gap: 25px;
+            margin-left: 30px;
+        }
+
+        .card {
+            width: 225px;
+            height: 500px;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            pointer-events: none;
+            transition: 0.5s;   
+        }
+        .card .layer {
+          background: linear-gradient(to top,#40e648 0%,transparent);
+           position: absolute;
+           bottom: 0;
+           width: 100%;
+           height: 75%;
+           opacity: 0;
+           transition: 0.3s;
+        }
+        .card .info {
+            position: absolute;
+            bottom: -50%;
+            padding: 15px;
+            opacity: 0;
+            transition: 0.5s bottom, 1.75s opacity;
+        }
+
+        .info p {
+            font-size: 14px;
+            margin-top: 3px;
+        }
+
+        .info button {
+            background: black;
+            border: none;
+            padding: 8px 12px;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-top: 8px;
+        }
+
+        .card:hover,
+        .card:hover img,
+        .card:hover layer {
+           transform: scale(1.1);
+        }
+        .card:hover > .layer {
+           opacity: 1;
+        }
+        .card:hover > .info {
+           bottom: 0;
+           opacity: 100;
+        }
+        card-group.card-group > .card:not(:hover) {
+          filter: blur(5px);
+        }
+        header {
+    position: absolute;
+    top: -2%;
+    left: 0%;
+    width: 40%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    background: rgb(151, 219, 160);
+    color: rgb(255, 255, 255);
+}
+    </style>
+    
+<body>
+  <header>
+    <div class="background"></div>
+<a href="a" class="logo"></a>
+<nav>
+<a href="Gonzaga.html">Home</a>
+<a href="about.html">About</a>
+<a href="work.html">Dream</a>
+<a href="konta1.html" class="active">Contact</a>
+<a href="explora.html">Memories</a>
+</nav>
+</header>
+  <div class="card-group">
+    <div class="card">
+      <img src="1 Aguiar.JPG">
+      <div class="layer"></div>
+      <div class="info">
+        <h1>Universidade -</h1>
+        <p>
+          Faculdade - 
+        </p>
+        <button>Aguiar</button>
+      </div>
+    </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="2 Ana Jessica.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Ana Jessica</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="3 Bahkita.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Bahkita</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="4 Benicia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Benicia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="5 Canizia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Canizia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="6 Cassandra.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -  
+      </p>
+      <button>Cassandra</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="7 Cimplicio.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -  
+      </p>
+      <button>Cimplicio</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="8 Delfina.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -  
+      </p>
+      <button>Delfina</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="9 Deoneia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -  
+      </p>
+      <button>Deoneia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="10 Emmanuel.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -  
+      </p>
+      <button>Emmanuel</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="11 Esperanca.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Esperança</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="12 Evita.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Evita</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="13 Ferdinand.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Ferdinand</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="14 Fevrianti.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Fevrianti</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="15 Francisca.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Francisca Deusa</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="16 Giavania.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Giavania Terra</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="17 Guilhermina.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Guilhermina</button>
+    </div>
+  </div>
+<div class="card-group">
+  <div class="card">
+    <img src="18 Ignatius.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Ignatius</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="20 Jania.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Jania</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="21 Jenilson.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Jenilson</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="22 Jenovia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Jenovia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="23 Larissa.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Larissa</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="24 Lurocia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Lurochia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="25 Marco.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Marco</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="26 Maria Baptista.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Maria Baptista</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="27 Maria Delafonsa.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Maria Dellafonsa</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="28 Melicia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Melicia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="29 Michel.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Michel</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="30 Milugrrexcya.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Milugrrexcya</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="31 Natalvira.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Natalvira</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="32 Nilda.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Nilda</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="33 Osvaldo.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade 
+      </p>
+      <button>Osvaldo</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="34 Patricia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade -
+      </p>
+      <button>Patricia</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="35 Richana.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Richana</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="36 Riganho.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Riganho</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="37 Rivanio.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Rivánio</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="38 Rosalina.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Rosalina</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="39 Safira.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Safira</button>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="40 Vidalia.JPG">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Universidade -</h1>
+      <p>
+        Faculdade - 
+      </p>
+      <button>Vidalia</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="f55e138a71654299aa87ce0ccdfddd4a.jpg">
+    <div class="layer"></div>
+    <div class="info">
+      <h1>Gonzaga 23-25</h1>
+      <p>
+        IPA 
+      </p>
+      <button>GZG</button>
+    </div>
+  </div>
+</div>
+<audio autoplay src="One_Direction_-_Infinity_(Audio)(128k).m4a"></audio>
+</body>
+</html>

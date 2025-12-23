@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+* body {
+    min-height: 100vh;
+    background-image: url(GONZAGANIANS\ 2023-2025.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+}
+
+img {
+    position: absolute;
+top: 0%;
+left: 0%;
+width: 15%;
+display: block;
+} 
+
+  header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header .logo {
+    color: snow;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5cm;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    background: white;
+    color: black;
+}
+
+.WELCOME {
+    position: absolute;
+    width: 60%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.WELCOME h1 {
+    color: cornsilk;
+    font-size: 1.2cm;
+    font-weight: 1000;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+
+}
+
+.WELCOME h2 {
+    color: snow;
+    font-size: small;
+}
+
+div .explore {
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.5ch;
+    font-weight: 1000;
+    margin-top: 15px;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+}

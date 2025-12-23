@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flip Card Animation</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+   background: white;
+   min-height: 100vh;
+   overflow-x: hiddn;
+}
+        .parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text {
+    position: absolute;
+    font-size: 5em;
+    color: burlywood;
+}
+.parallax .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none; 
+}
+    </style>
+</head>
+<body>
+    <section class="parallax"></section>
+    <h2 id="text">Parallax website</h2>
+    <img src="mk.JPG" width="100%" height="100%">
+    <img src="8-removebg-preview.png" width="20%" height="100%">
+</section>
+   <script src="script.js"></script> 
+</body>
+</html>

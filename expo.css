@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+* body {
+    min-height: 100vh;
+    background: url(FIX\ 2.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    overflow-x: hidden;
+    
+}
+
+  header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header .logo {
+    color: snow;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5cm;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    background: navy;
+    color: white;
+}
+
+
+.fotsir{
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border:  5px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 25px 30px rgb(30, 30, 200, 0.3);
+
+}
+.wrapper{
+    display: flex;
+    animation: slide 55s infinite ;
+}
+.wrapper img{
+    width: 100%;
+}
+
+.video1 {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 121%;
+    display: block;
+}
+.video2 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 121%;
+    display: block;
+}
+.video3 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 121%;
+    display: block;
+}
+.video4 {
+    position: absolute;
+    top: 73%;
+    left: 20%;
+    width: 121%;
+    display: block;
+}
+
+.foto1 {
+    position: absolute;
+    top: 26%;
+    left: 59%;
+    width: 121%;
+    display: block;
+}
+.foto2 {
+    position: absolute;
+    top: 100%;
+    left: 59%;
+    width: 121%;
+    display: block;
+}
+
+
+
+
+{}{}{}

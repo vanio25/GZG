@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+* body {
+    min-height: 100vh;
+    background-image: url(matak\ 1.JPG);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+img {
+    position: absolute;
+top: 0%;
+left: 0%;
+width: 15%;
+display: block;
+} 
+
+  header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    background: rgb(22, 185, 96);
+    color: rgb(255, 255, 255);
+}
+header nav a:hover,
+header nav a.notactive {
+    background: rgb(69, 87, 77);
+    color: rgb(255, 255, 255);
+}
+
+.WELCOME {
+    position: absolute;
+    width: 45%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -150%); 
+    text-align: center;
+}
+
+.WELCOME h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1cm;
+    font-weight: 1000;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.WELCOME h2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.5cm;
+    font-weight: 100;
+    letter-spacing: 0.1cm;
+    text-transform: uppercase; 
+}
+
+.WELCOME h3 {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    letter-spacing: 0.2cm;
+    font-weight: 100;
+    width: 100%;
+    margin: 20px 0 -10px;   
+}
+.WELCOME h4 {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    letter-spacing: 0.1cm;
+    font-weight: 100;
+    width: 100%;
+    margin: 20px 0 -10px;   
+}
+
+.b1 {
+    position: absolute;
+    top: 150%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.ag {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    letter-spacing: 0cm;
+    font-weight: 1000;
+    width: 100%;
+    margin: 20px 0 -10px;
+    margin-left: -43%;
+    margin-top: 22%;
+}
+
+.l1 {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    letter-spacing: 0cm;
+    font-weight: 1000;
+    width: 100%;
+    margin: 20px 0 -10px;
+    margin-left: -43%;
+    margin-top: 2%;
+    font-weight: 150;
+}
+
+.b2 {
+    position: absolute;
+    top: 150%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b3 {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b4 {
+    position: absolute;
+    top: 150%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b5 {
+    position: absolute;
+    top: 300%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b6 {
+    position: absolute;
+    top: 300%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b7 {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b8 {
+    position: absolute;
+    top: 300%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b9 {
+    position: absolute;
+    top: 1500%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b10 {
+    position: absolute;
+    top: 450%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b11 {
+    position: absolute;
+    top: 450%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b12 {
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b13 {
+    position: absolute;
+    top: 450%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b14 {
+    position: absolute;
+    top: 600%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b15 {
+    position: absolute;
+    top: 600%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b16 {
+    position: absolute;
+    top: 600%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b17 {
+    position: absolute;
+    top: 600%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b18 {
+    position: absolute;
+    top: 750%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b19 {
+    position: absolute;
+    top: 750%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b20 {
+    position: absolute;
+    top: 750%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b21 {
+    position: absolute;
+    top: 750%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b22 {
+    position: absolute;
+    top: 900%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b23 {
+    position: absolute;
+    top: 900%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b24 {
+    position: absolute;
+    top: 900%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b25 {
+    position: absolute;
+    top: 900%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b26 {
+    position: absolute;
+    top: 1050%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b27 {
+    position: absolute;
+    top: 1050%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b28 {
+    position: absolute;
+    top: 1050%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b29 {
+    position: absolute;
+    top: 1050%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b30 {
+    position: absolute;
+    top: 1200%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b31 {
+    position: absolute;
+    top: 1350%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b32 {
+    position: absolute;
+    top: 1200%;
+    left: 90%;
+    width: 121%;
+    display: block;
+}
+
+.b33 {
+    position: absolute;
+    top: 1200%;
+    left: -20%;
+    width: 121%;
+    display: block;
+}
+
+.b34 {
+    position: absolute;
+    top: 1200%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b35 {
+    position: absolute;
+    top: 1350%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b36 {
+    position: absolute;
+    top: 1500%;
+    left: 50%;
+    width: 121%;
+    display: block;
+}
+
+.b37 {
+    position: absolute;
+    top: 1500%;
+    left: 15%;
+    width: 121%;
+    display: block;
+}
+
+.b38 {
+    position: absolute;
+    top: 1350%;
+    left: 15%;
+    width: 121%;
+    display: block;
+
+}
+
+.b39 {
+    position: absolute;
+    top: 1350%;
+    left: -20%;
+    width: 121%;
+    display: block;
+
+}
+
+
