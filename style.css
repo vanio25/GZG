@@ -4,25 +4,7 @@
     box-sizing: border-box;
 }
 
-.responsive-box {
-  width: 100%;           /* lebar mengikuti layar */
-  max-width: 800px;      /* opsional: batas lebar maksimal untuk laptop */
-  aspect-ratio: 16 / 9;  /* rasio otomatis mengikuti lebar */
-  background-color: lightblue; /* contoh warna */
-  margin: auto;          /* supaya di tengah layar */
-  display: block;
-}
-
 * body {
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: rgb(255, 255, 255);
-    font-family: "Poppins", sans-serif;
-    background: black;
-    overflow-x: hidden;
-    width: 100%;
      width: 100%;           /* lebar mengikuti layar */
   max-width: 800px;      /* opsional: batas lebar maksimal untuk laptop */
   aspect-ratio: 16 / 9;  /* rasio otomatis mengikuti lebar */
@@ -502,6 +484,7 @@ div .explore {
     width: 121%;
     display: block;
 }
+
 
 
 
