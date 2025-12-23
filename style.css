@@ -14,38 +14,42 @@ body {
 }
 
 /* ================= WELCOME ================= */
+/* Container WELCOME */
 .WELCOME {
-    position: relative;
     text-align: center;
-    padding: 80px 20px;
+    padding: 20px;
 }
 
-.WELCOME img {
-    width: 200px;
+/* Gambar di atas */
+.welcome-img {
+    width: 200px;       /* default ukuran desktop */
     height: auto;
+    margin-bottom: 15px;
 }
 
-.WELCOME h1 {
-    color: rgb(40, 117, 44);
-    font-size: 14px;
-    letter-spacing: 4px;
+/* Judul dan tombol */
+.WELCOME h1, .WELCOME h2 {
+    margin: 5px 0;
 }
 
-.WELCOME h2 {
-    color: rgb(21, 90, 24);
-    font-size: 32px;
-    letter-spacing: 4px;
-}
+/* Media query untuk layar kecil (HP) */
+@media (max-width: 600px) {
+    .welcome-img {
+        width: 120px;   /* lebih kecil di HP */
+    }
 
-.explore {
-    margin-top: 20px;
-    padding: 12px 25px;
-    border-radius: 20px;
-    background: black;
-    color: white;
-    border: 2px solid rgb(21, 90, 24);
-    cursor: pointer;
-}
+    .WELCOME h1 {
+        font-size: 18px; 
+    }
+
+    .WELCOME h2 {
+        font-size: 22px;
+    }
+
+    .explore {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
 
 /* ================= CONTENER ================= */
 .contener img {
@@ -161,3 +165,4 @@ body {
     .responsive-img {
         max-width: 100px; /* gambar lebih kecil di HP */
     }
+
