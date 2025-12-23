@@ -408,16 +408,24 @@ width: 25%;
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
 }
 
-.gallery img {
+.item img {
   width: 100%;
   height: auto;
-  object-fit: cover;
-  border-radius: 10px;
+  display: block;
 }
+
+.item p {
+  margin-top: 4px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+
 
 
 
