@@ -190,7 +190,7 @@ div .explore {
   max-width: 200px;
   height: auto;
 }
-.gallery {
+.d {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -209,6 +209,7 @@ div .explore {
   color: white;
   text-align: center;
 }
+
 
 
 
