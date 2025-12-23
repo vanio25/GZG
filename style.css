@@ -1,1 +1,488 @@
-* { margin: 0; padding: 0; box-sizing: border-box; } * body { height: 60vh; background-size: cover; background-repeat: no-repeat; background-position: center; color: rgb(255, 255, 255); font-family: "Poppins", sans-serif; background: black; overflow-x: hidden; width: 100%; } .gradasi { position: absolute; bottom: -10px; left: 0; width: 100%; height: 30%; background: linear-gradient(to top, black, transparent); z-index: 5; } nav a { text-decoration: none; color: white margin-left: 40px; border-radius: 20px; padding: 10px; } header nav a:hover, header nav a.active { background: rgb(134, 255, 140); color: white; } .WELCOME { position: absolute; width: 60%; top: 45%; left: 50%; transform: translate(-50%, -50%); text-align: center; } .WELCOME h1 { color: rgb(40, 117, 44); font-size: small; font-weight: 100; letter-spacing: 0.1cm; text-transform: uppercase; text-shadow: 0 0 20px rgb(0, 0, 0); } .holi p { color: rgb(255, 255, 255); font-size: 0.9cm; font-weight: 100; letter-spacing: 0.1cm; text-transform: uppercase; text-shadow: 0 0 20px rgb(0, 255, 85); font-style: italic; } .WELCOME h2 { color: rgb(21, 90, 24); font-size: 1.1cm; letter-spacing: 0.1cm; font-weight: 1000; text-shadow: 0 0 30px rgb(255, 255, 255); } div .explore { border: none; color: rgb(17, 94, 68); padding: 10px; border-radius: 20px; font-size: 1.5ch; font-weight: 1000; margin-top: 15px; letter-spacing: 0.2cm; text-transform: uppercase; } .explore{ background-color: black color: white } .explore ::before{ content: ""; position: absolute; width: 100%; height: 60vh; bottom: 0; left: 0; } .home img{ position: absolute; bottom: 0; width: 100%; pointer-events: none; } .contener h1, p{ padding: 50px; background: black; bottom: 100%; color: rgb(255, 255, 255); } .contener img{ width: 100%; display: flex; margin: auto; } .contener .imgg2{ width: 10%; display: block; margin: auto; position: absolute; top: 750px; left: 40px; } .contener .imgg3{ width: 10%; display: block; margin: auto; position: absolute; top: 750px; left: 170px; } .contener .imgg4{ width: 10%; display: block; margin: auto; position: absolute; top: 750px; left: 290px; } .ag { color: rgb(255, 255, 255); font-size: small; letter-spacing: 0cm; font-weight: 1000; width: 100%; margin: 20px 0 -10px; margin-left: 0%; margin-top: 0%; } .lol { color: rgb(255, 255, 255); font-size: xx-large; letter-spacing: 0cm; font-weight: 1000; width: 100%; margin: 20px 0 -10px; margin-left: %; margin-top: 0%; font-style: oblique; } .b1 { position: absolute; top: 210%; left: 12%; width: 121%; display: block; } .b2 { position: absolute; top: 210%; left: 32%; width: 121%; display: block; } .b3 { position: absolute; top: 210%; left: 52%; width: 121%; display: block; } .b4 { position: absolute; top: 210%; left: 72%; width: 121%; display: block; } .b5 { position: absolute; top: 250%; left: 12%; width: 121%; display: block; } .b6 { position: absolute; top: 250%; left: 32%; width: 121%; display: block; } .b7 { position: absolute; top: 250%; left: 52%; width: 121%; display: block; } .b8 { position: absolute; top: 250%; left: 72%; width: 121%; display: block; } .b9 { position: absolute; top: 570%; left: 12%; width: 121%; display: block; } .b10 { position: absolute; top: 290%; left: 12%; width: 121%; display: block; } .b11 { position: absolute; top: 290%; left: 32%; width: 121%; display: block; } .b12 { position: absolute; top: 290%; left: 52%; width: 121%; display: block; } .b13 { position: absolute; top: 290%; left: 72%; width: 121%; display: block; } .b14 { position: absolute; top: 330%; left: 12%; width: 121%; display: block; } .b15 { position: absolute; top: 330%; left: 32%; width: 121%; display: block; } .b16 { position: absolute; top: 330%; left: 52%; width: 121%; display: block; } .b17 { position: absolute; top: 330%; left: 72%; width: 121%; display: block; } .b18 { position: absolute; top: 370%; left: 12%; width: 121%; display: block; } .b19 { position: absolute; top: 370%; left: 32%; width: 121%; display: block; } .b20 { position: absolute; top: 370%; left: 52%; width: 121%; display: block; } .b21 { position: absolute; top: 370%; left: 72%; width: 121%; display: block; } .b22 { position: absolute; top: 410%; left: 72%; width: 121%; display: block; } .b23 { position: absolute; top: 410%; left: 12%; width: 121%; display: block; } .b24 { position: absolute; top: 410%; left: 52%; width: 121%; display: block; } .b25 { position: absolute; top: 410%; left: 32%; width: 121%; display: block; } .b26 { position: absolute; top: 450%; left: 72%; width: 121%; display: block; } .b27 { position: absolute; top: 450%; left: 52%; width: 121%; display: block; } .b28 { position: absolute; top: 450%; left: 32%; width: 121%; display: block; } .b29 { position: absolute; top: 450%; left: 12%; width: 121%; display: block; } .b30 { position: absolute; top: 490%; left: 52%; width: 121%; display: block; } .b31 { position: absolute; top: 530%; left: 72%; width: 121%; display: block; } .b32 { position: absolute; top: 490%; left: 72%; width: 121%; display: block; } .b33 { position: absolute; top: 490%; left: 12%; width: 121%; display: block; } .b34 { position: absolute; top: 490%; left: 32%; width: 121%; display: block; } .b35 { position: absolute; top: 530%; left: 52%; width: 121%; display: block; } .b36 { position: absolute; top: 570%; left: 52%; width: 121%; display: block; } .b37 { position: absolute; top: 570%; left: 32%; width: 121%; display: block; } .b38 { position: absolute; top: 530%; left: 32%; width: 121%; display: block; } .b39 { position: absolute; top: 530%; left: 12%; width: 121%; display: block; } .oke { position: absolute; top: 610%; left: 12%; width: 121%; display: block; } .oke1 { position: absolute; top: 620%; left: 32%; width: 121%; display: block; } .oke2 { position: absolute; top: 620%; left: 46%; width: 121%; display: block; } .oke3 { position: absolute; top: 620%; left: 60%; width: 121%; display: block; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* body {
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    background: black;
+    overflow-x: hidden;
+    width: 100%;
+}
+.gradasi {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, black, transparent);
+    z-index: 5;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    background: rgb(134, 255, 140);
+    color: white;
+}
+
+.WELCOME {
+    position: absolute;
+    width: 60%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.WELCOME h1 {
+    color: rgb(40, 117, 44);
+    font-size: small;
+    font-weight: 100;
+    letter-spacing: 0.1cm;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.holi p {
+    color: rgb(255, 255, 255);
+    font-size: 0.9cm;
+    font-weight: 100;
+    letter-spacing: 0.1cm;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgb(0, 255, 85);
+    font-style: italic;
+}
+
+.WELCOME h2 {
+    color: rgb(21, 90, 24);
+    font-size: 1.1cm;
+    letter-spacing: 0.1cm;
+    font-weight: 1000;
+    text-shadow: 0 0 30px rgb(255, 255, 255);
+}
+
+div .explore {
+    border: none;
+    color: rgb(17, 94, 68);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.5ch;
+    font-weight: 1000;
+    margin-top: 15px;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+}
+
+.explore{
+    background-color: black
+    color: white   
+    
+}
+.explore ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    bottom: 0;
+    left: 0;
+}
+
+.home img{
+    position: absolute;
+    bottom: 0;  
+    width: 100%;
+    pointer-events: none;
+}
+.contener h1, p{
+    padding: 50px;
+    background: black;
+    bottom: 100%;
+    color: rgb(255, 255, 255);
+}
+.contener img{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.contener .imgg2{
+    width: 10%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 750px;
+    left: 40px;
+}
+.contener .imgg3{
+    width: 10%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 750px;
+    left: 170px;
+}
+.contener .imgg4{
+    width: 10%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 750px;
+    left: 290px;
+}
+
+.ag {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    letter-spacing: 0cm;
+    font-weight: 1000;
+    width: 100%;
+    margin: 20px 0 -10px;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.lol {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    letter-spacing: 0cm;
+    font-weight: 1000;
+    width: 100%;
+    margin: 20px 0 -10px;
+    margin-left: %;
+    margin-top: 0%;
+    font-style: oblique;
+}
+.b1 {
+    position: absolute;
+    top: 210%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.b2 {
+    position: absolute;
+    top: 210%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+.b3 {
+    position: absolute;
+    top: 210%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+.b4 {
+    position: absolute;
+    top: 210%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+.b5 {
+    position: absolute;
+    top: 250%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.b6 {
+    position: absolute;
+    top: 250%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+.b7 {
+    position: absolute;
+    top: 250%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+.b8 {
+    position: absolute;
+    top: 250%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+.b9 {
+    position: absolute;
+    top: 570%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.b10 {
+    position: absolute;
+    top: 290%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.b11 {
+    position: absolute;
+    top: 290%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+.b12 {
+    position: absolute;
+    top: 290%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+.b13 {
+    position: absolute;
+    top: 290%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+.b14 {
+    position: absolute;
+    top: 330%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.b15 {
+    position: absolute;
+    top: 330%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+.b16 {
+    position: absolute;
+    top: 330%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+.b17 {
+    position: absolute;
+    top: 330%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+.b18 {
+    position: absolute;
+    top: 370%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+
+.b19 {
+    position: absolute;
+    top: 370%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+
+.b20 {
+    position: absolute;
+    top: 370%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+
+.b21 {
+    position: absolute;
+    top: 370%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+
+.b22 {
+    position: absolute;
+    top: 410%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+
+.b23 {
+    position: absolute;
+    top: 410%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+
+.b24 {
+    position: absolute;
+    top: 410%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+
+.b25 {
+    position: absolute;
+    top: 410%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+
+.b26 {
+    position: absolute;
+    top: 450%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+
+.b27 {
+    position: absolute;
+    top: 450%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+
+.b28 {
+    position: absolute;
+    top: 450%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+
+.b29 {
+    position: absolute;
+    top: 450%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+
+.b30 {
+    position: absolute;
+    top: 490%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+
+.b31 {
+    position: absolute;
+    top: 530%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+
+.b32 {
+    position: absolute;
+    top: 490%;
+    left: 72%;
+    width: 121%;
+    display: block;
+}
+
+.b33 {
+    position: absolute;
+    top: 490%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+
+.b34 {
+    position: absolute;
+    top: 490%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+
+.b35 {
+    position: absolute;
+    top: 530%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+
+.b36 {
+    position: absolute;
+    top: 570%;
+    left: 52%;
+    width: 121%;
+    display: block;
+}
+
+.b37 {
+    position: absolute;
+    top: 570%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+
+.b38 {
+    position: absolute;
+    top: 530%;
+    left: 32%;
+    width: 121%;
+    display: block;
+
+}
+
+.b39 {
+    position: absolute;
+    top: 530%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.oke {
+    position: absolute;
+    top: 610%;
+    left: 12%;
+    width: 121%;
+    display: block;
+}
+.oke1 {
+    position: absolute;
+    top: 620%;
+    left: 32%;
+    width: 121%;
+    display: block;
+}
+.oke2 {
+    position: absolute;
+    top: 620%;
+    left: 46%;
+    width: 121%;
+    display: block;
+}
+.oke3 {
+    position: absolute;
+    top: 620%;
+    left: 60%;
+    width: 121%;
+    display: block;
+}
