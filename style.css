@@ -477,5 +477,89 @@ div .explore {
     width: 121%;
     display: block;
 }
+/* =========================================================
+   RESPONSIVE FINAL (HP & LAPTOP)
+   KODE LAMA TETAP • TIDAK DIUBAH
+   ========================================================= */
+
+/* JAGA RASIO SEMUA GAMBAR */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================= DESKTOP / LAPTOP ================= */
+@media (min-width: 1025px) {
+    [class^="b"],
+    .oke,
+    .oke1,
+    .oke2,
+    .oke3 {
+        transform: scale(1);
+        transform-origin: top left;
+    }
+
+    .WELCOME {
+        width: 60%;
+    }
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+    [class^="b"],
+    .oke,
+    .oke1,
+    .oke2,
+    .oke3 {
+        transform: scale(0.8);
+        transform-origin: top left;
+    }
+
+    .WELCOME {
+        width: 80%;
+    }
+}
+
+/* ================= HP ================= */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .WELCOME {
+        width: 95%;
+        top: 40%;
+    }
+
+    .WELCOME h1 {
+        font-size: 12px;
+    }
+
+    .WELCOME h2 {
+        font-size: 20px;
+    }
+
+    /* SEMUA FOTO b1 – b39 */
+    [class^="b"] {
+        transform: scale(0.55);
+        transform-origin: top left;
+    }
+
+    /* BAGIAN BAWAH */
+    .oke,
+    .oke1,
+    .oke2,
+    .oke3 {
+        transform: scale(0.6);
+        transform-origin: top left;
+    }
+
+    .lol {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
 
 
