@@ -1,168 +1,68 @@
-/* ================= RESET ================= */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzaga Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-    min-height: 100vh;
-    background: black;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    overflow-x: hidden;
-}
+    <!-- Bagian Welcome -->
+    <section class="welcome">
+        <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="welcome-logo">
+        <div class="welcome-text">
+            <h1>WELCOME TO</h1>
+            <h2>GONZAGA</h2>
+            <a href="about.html"><button class="explore">Start here to see us</button></a>
+        </div>
+    </section>
 
-/* ================= WELCOME ================= */
-/* Container WELCOME */
-.WELCOME {
-    text-align: center;
-    padding: 20px;
-}
+    <!-- Bagian Contener -->
+    <section class="contener">
+        <img src="mk.JPG" alt="mk" class="contener-img">
+        <div class="gradasi"></div>
+        <h1>Gonzaga XXIII-XXV</h1>
+        <div class="imgg">
+            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="small-logo">
+            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="small-logo">
+            <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga" class="small-logo">
+        </div>
+        <p>"Harta yang paling indah bukanlah emas semata, bukan permata, ataupun benda-benda seni lainnya. Harta itu tidak dapat digenggam dengan tanganmu tetapi ada di dalam hatimu. Segala sesuatu yang ada di bumi akan mengilang seperti musim yang datang silih berganti, tetapi harta persahabatan yang sesungguhnya tidak akan pernah padam cahayanya."</p>
+    </section>
 
-/* Gambar di atas */
-.welcome-img {
-    width: 200px;       /* default ukuran desktop */
-    height: auto;
-    margin-bottom: 15px;
-}
+    <!-- Bagian Quote -->
+    <section class="holi">
+        <p>Segundo Gerção de Gonzaga no Loiola<br>"É MELHORE SER FILHO DE DEUS DO QUE O REI DO MUNDO"</p>
+    </section>
 
-/* Judul dan tombol */
-.WELCOME h1, .WELCOME h2 {
-    margin: 5px 0;
-}
+    <!-- Bagian Anggota -->
+    <section class="anggota">
+        <div class="anggota-item">
+            <img src="calon.JPG" alt="AGUIAR">
+            <div class="ag">AGUIAR</div>
+        </div>
+        <div class="anggota-item">
+            <img src="2 Ana Jessica.JPG" alt="ANA JESSICA">
+            <div class="ag">ANA JESSICA</div>
+        </div>
+        <div class="anggota-item">
+            <img src="3 Bahkita.JPG" alt="BAHKITA">
+            <div class="ag">BAHKITA</div>
+        </div>
+        <!-- Tambahkan anggota lain dengan format sama -->
+    </section>
 
-/* Media query untuk layar kecil (HP) */
-@media (max-width: 600px) {
-    .welcome-img {
-        width: 120px;   /* lebih kecil di HP */
-    }
+    <!-- Bagian Footer/Senior -->
+    <section class="oke">
+        <p>SENIOR'25 SING OFF, GOOD BYE. SEE YOU WHEN I SEE YOU</p>
+        <div class="oke-logo">
+            <img src="Logo CSIL.png" alt="Logo Senior" class="logo-senior">
+            <div class="ag">SENIOR'25</div>
+        </div>
+    </section>
 
-    .WELCOME h1 {
-        font-size: 18px; 
-    }
+    <audio autoplay src="Harry_Potter_Ambient_Music__Hogwarts__Relaxing,_Studying,_Sleeping(128k).m4a"></audio>
 
-    .WELCOME h2 {
-        font-size: 22px;
-    }
-
-    .explore {
-        font-size: 14px;
-        padding: 8px 12px;
-    }
-
-/* ================= CONTENER ================= */
-.contener img {
-    width: 100%;
-    height: auto;
-}
-
-.contener h1,
-.contener p {
-    padding: 20px;
-    text-align: center;
-}
-
-/* ================= HOLI ================= */
-.holi p {
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-style: italic;
-    text-shadow: 0 0 10px rgb(0, 255, 85);
-    padding: 30px;
-}
-
-/* ================= GRID FOTO ================= */
-[class^="b"] {
-    width: 180px;
-    text-align: center;
-}
-
-[class^="b"] img {
-    width: 150px;
-    height: auto;
-}
-
-.ag {
-    margin-top: 5px;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-/* ================= FOTO CONTAINER ================= */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* ================= DESKTOP GRID ================= */
-@media (min-width: 769px) {
-    .b1, .b2, .b3, .b4,
-    .b5, .b6, .b7, .b8,
-    .b9, .b10, .b11, .b12,
-    .b13, .b14, .b15, .b16,
-    .b17, .b18, .b19, .b20,
-    .b21, .b22, .b23, .b24,
-    .b25, .b26, .b27, .b28,
-    .b29, .b30, .b31, .b32,
-    .b33, .b34, .b35, .b36,
-    .b37, .b38, .b39 {
-        display: inline-block;
-        margin: 15px;
-    }
-}
-
-/* ================= MOBILE ================= */
-@media (max-width: 768px) {
-
-    .WELCOME img {
-        width: 120px;
-    }
-
-    .WELCOME h2 {
-        font-size: 24px;
-    }
-
-    [class^="b"] {
-        width: 45%;
-        margin: 10px 0;
-    }
-
-    [class^="b"] img {
-        width: 100px;
-    }
-
-    .ag {
-        font-size: 11px;
-    }
-}
-
-/* ================= OKE SECTION ================= */
-.oke,
-.oke1,
-.oke2,
-.oke3 {
-    margin: 30px 10px;
-    text-align: center;
-}
-
-.lol {
-    font-size: 20px;
-    font-style: italic;
-}
-/* Semua gambar dengan class responsive-img akan menyesuaikan layar */
-.responsive-img {
-    width: 100%;       /* penuh sesuai container */
-    height: auto;      /* jaga rasio gambar */
-    max-width: 150px;  /* maksimal untuk desktop, bisa diubah */
-    border-radius: 8px; /* opsional, biar lebih rapi */
-}
-
-/* Media query untuk layar kecil (HP) */
-@media (max-width: 600px) {
-    .responsive-img {
-        max-width: 100px; /* gambar lebih kecil di HP */
-    }
-
+</body>
+</html>
