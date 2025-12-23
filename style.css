@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.box {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* tinggi otomatis mengikuti lebar */
+  background-color: lightblue;
+}
+
 * body {
     height: 60vh;
     background-size: cover;
@@ -486,3 +492,4 @@ div .explore {
     width: 121%;
     display: block;
 }
+
