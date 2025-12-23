@@ -17,7 +17,7 @@
 }
 .gradasi {
     position: absolute;
-    bottom: -10px;
+    bottom: 20px;
     left: 0;
     width: 100%;
     height: 30%;
@@ -486,3 +486,4 @@ div .explore {
     width: 121%;
     display: block;
 }
+
