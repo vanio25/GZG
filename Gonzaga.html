@@ -1,185 +1,90 @@
-/* ============ RESET ============ */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzaga Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
 
-body {
-    background: black;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    overflow-x: hidden;
-}
+<!-- ===== WELCOME SECTION ===== -->
+<div class="WELCOME">
+    <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="Logo Gonzaga">
+    <h1>WELCOME TO</h1>
+    <h2>GONZAGA</h2>
+    <a href="about.html"><button class="explore">Start here to see us</button></a>
+</div>
 
-/* ============ WELCOME SECTION ============ */
-.WELCOME {
-    text-align: center;
-    padding: 50px 20px;
-}
+<!-- ===== CONTENER SECTION ===== -->
+<div class="contener">
+    <img src="mk.JPG" alt="mk" class="main-img">
+    <div class="gradasi"></div>
+    <h1>Gonzaga XXIII-XXV</h1>
+    <div class="imgg2">
+        <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="logo kecil">
+    </div>
+    <div class="imgg3">
+        <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="logo kecil">
+    </div>
+    <div class="imgg4">
+        <img src="GONZAGANIANS_2023-2025-removebg-preview.png" alt="logo kecil">
+    </div>
+    <p>
+        "Harta yang paling indah bukanlah emas semata, bukan permata, ataupun benda-benda seni lainnya. Harta itu tidak dapat digenggam dengan tanganmu tetapi ada di dalam hatimu. Segala sesuatu yang ada di bumi akan mengilang seperti musin yang datang silih berganti, tetapi harta persahabatan yang sesungguhnya tidak akan pernah padam cahayanya"
+    </p>
+    <p>
+        "Harta yang paling indah bukanlah emas semata, bukan permata, ataupun benda-benda seni lainnya. Harta itu tidak dapat digenggam dengan tanganmu tetapi ada di dalam hatimu. Segala sesuatu yang ada di bumi akan mengilang seperti musin yang datang silih berganti, tetapi harta persahabatan yang sesungguhnya tidak akan pernah padam cahayanya"
+    </p>
+</div>
 
-.WELCOME img {
-    width: 200px;
-    height: auto;
-}
+<!-- ===== HOLI SECTION ===== -->
+<div class="holi">
+    <p>
+        Segundo Gerção de Gonzaga no Loiola<br>
+        "É MELHORE SER FILHO DE DEUS DO QUE O REI DO MUNDO"
+    </p>
+</div>
 
-.WELCOME h1 {
-    color: rgb(40, 117, 44);
-    font-size: 14px;
-    letter-spacing: 4px;
-    margin-top: 10px;
-}
+<!-- ===== SISWA GRID ===== -->
+<div class="siswa-grid">
+    <!-- Contoh 3 siswa, copy paste sampai b39 -->
+    <div class="b1">
+        <img src="calon.JPG" alt="AGUIAR">
+        <div class="ag">AGUIAR</div>
+    </div>
+    <div class="b2">
+        <img src="2 Ana Jessica.JPG" alt="ANA JESSICA">
+        <div class="ag">ANA JESSICA</div>
+    </div>
+    <div class="b3">
+        <img src="3 Bahkita.JPG" alt="BAHKITA">
+        <div class="ag">BAHKITA</div>
+    </div>
+    <!-- Copy paste sampai b39 sesuai file kamu -->
+</div>
 
-.WELCOME h2 {
-    color: rgb(21, 90, 24);
-    font-size: 32px;
-    letter-spacing: 4px;
-    margin: 10px 0 20px 0;
-}
+<!-- ===== OKE SECTION ===== -->
+<div class="oke-section">
+    <div class="lol">SENIOR'25 SING OFF, GOOD BYE. SEE YOU WHEN I SEE YOU</div>
+    <div class="siswa-grid">
+        <div class="oke1">
+            <img src="Logo CSIL.png" alt="SENIOR'25">
+            <div class="ag">SENIOR'25</div>
+        </div>
+        <div class="oke2">
+            <img src="Logo CSIL.png" alt="SENIOR'25">
+            <div class="ag">SENIOR'25</div>
+        </div>
+        <div class="oke3">
+            <img src="Logo CSIL.png" alt="SENIOR'25">
+            <div class="ag">SENIOR'25</div>
+        </div>
+    </div>
+</div>
 
-.explore {
-    padding: 12px 25px;
-    border-radius: 20px;
-    background: black;
-    color: white;
-    border: 2px solid rgb(21, 90, 24);
-    cursor: pointer;
-    font-weight: bold;
-}
+<!-- ===== AUDIO ===== -->
+<audio autoplay src="Harry_Potter_Ambient_Music__Hogwarts__Relaxing,_Studying,_Sleeping(128k).m4a"></audio>
 
-/* ============ CONTENER SECTION ============ */
-.contener {
-    text-align: center;
-    padding: 20px;
-}
-
-.contener img {
-    width: 100%;
-    max-height: 650px;
-    object-fit: cover;
-}
-
-.contener h1 {
-    margin: 20px 0;
-}
-
-.contener p {
-    max-width: 900px;
-    margin: 20px auto;
-    line-height: 1.5;
-}
-
-/* ============ LOGO KECIL ============ */
-.imgg2,
-.imgg3,
-.imgg4 {
-    display: inline-block;
-    margin: 10px;
-}
-
-.imgg2 img,
-.imgg3 img,
-.imgg4 img {
-    width: 80px;
-    height: auto;
-}
-
-/* ============ HOLI QUOTE ============ */
-.holi p {
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-style: italic;
-    text-shadow: 0 0 10px rgb(0, 255, 85);
-    padding: 40px 20px;
-}
-
-/* ============ FOTO SISWA ============ */
-[class^="b"] {
-    display: inline-block;
-    width: 23%;
-    margin: 1%;
-    text-align: center;
-    vertical-align: top;
-}
-
-[class^="b"] img {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.ag {
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-/* ============ OKE SECTION ============ */
-.oke,
-.oke1,
-.oke2,
-.oke3 {
-    text-align: center;
-    margin: 30px 10px;
-}
-
-.lol {
-    font-size: 20px;
-    font-style: italic;
-}
-
-/* ============ RESPONSIVE ============ */
-
-/* Tablet */
-@media (max-width: 1024px) {
-    [class^="b"] {
-        width: 30%;
-    }
-
-    [class^="b"] img {
-        max-width: 120px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-
-    .WELCOME {
-        padding: 30px 10px;
-    }
-
-    .WELCOME img {
-        width: 120px;
-    }
-
-    .WELCOME h2 {
-        font-size: 24px;
-    }
-
-    .contener h1 {
-        font-size: 20px;
-    }
-
-    .contener p {
-        font-size: 14px;
-    }
-
-    [class^="b"] {
-        width: 45%;
-        margin: 2%;
-    }
-
-    [class^="b"] img {
-        max-width: 100px;
-    }
-
-    .ag {
-        font-size: 12px;
-    }
-
-    .lol {
-        font-size: 16px;
-    }
-}
+</body>
+</html>
