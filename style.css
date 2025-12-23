@@ -190,35 +190,39 @@ div .explore {
   max-width: 200px;
   height: auto;
 }
-.gallery-3x4 {
+.gallery-4 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 kolom tetap */
+  grid-template-columns: repeat(4, 1fr); /* 4 foto sejajar */
   gap: 15px;
-  padding: 15px;
+  padding: 20px;
   max-width: 1200px;
   margin: auto;
 }
 
-.gallery-3x4 .item img {
-  width: 100%; /* mengikuti container */
-  height: auto; /* tetap proporsional */
+.gallery-4 .item img {
+  width: 100%;   /* mengikuti container */
+  height: auto;  /* proporsional */
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
-.gallery-3x4 .item p {
-  margin-top: 4px;
-  font-size: 12px;
+.gallery-4 .item p {
+  margin-top: 5px;
+  font-size: 14px;
   text-align: center;
   color: white;
 }
 
-/* HP 2 kolom */
+/* Responsif HP: tetap 4 foto tapi mengecil */
 @media (max-width: 768px) {
-  .gallery-3x4 {
-    grid-template-columns: repeat(2, 1fr);
+  .gallery-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 10px;
   }
 }
+
+
 
 
 
