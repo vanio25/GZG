@@ -177,6 +177,16 @@ div .explore {
   padding: 10px;
 }
 
+footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f1f1f1;
+      color: #555;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
 .gallery-side-name .item {
   display: flex;       /* foto & nama sejajar horizontal */
   align-items: center;
@@ -194,6 +204,7 @@ div .explore {
   font-size: 14px;
   color: black;        /* ganti sesuai background */
 }
+
 
 
 
