@@ -177,33 +177,7 @@ div .explore {
     text-shadow: 0 0 20px rgb(0, 255, 85);
     font-style: italic;
 }
-.oke1 {
-    color: rgb(255, 255, 255);
-    font-size: 0.9cm;
-    font-weight: 100;
-    letter-spacing: 0.1cm;
-    text-transform: uppercase;
-    text-shadow: 0 0 20px rgb(0, 255, 85);
-    font-style: italic;
-}
-.oke2 {
-    color: rgb(255, 255, 255);
-    font-size: 0.9cm;
-    font-weight: 100;
-    letter-spacing: 0.1cm;
-    text-transform: uppercase;
-    text-shadow: 0 0 20px rgb(0, 255, 85);
-    font-style: italic;
-}
-.oke3 {
-  color: rgb(255, 255, 255);
-    font-size: 0.9cm;
-    font-weight: 100;
-    letter-spacing: 0.1cm;
-    text-transform: uppercase;
-    text-shadow: 0 0 20px rgb(0, 255, 85);
-    font-style: italic;
-}
+
 .gallery-side-name {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 foto per baris */
@@ -230,6 +204,7 @@ div .explore {
   font-size: 14px;
   color: black;        /* ganti sesuai background */
 }
+
 
 
 
